@@ -29,7 +29,7 @@ export function Shop() {
             </Link>
             <Link
               className="hidden md:inline-flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
-              href="#"
+              href="/community"
             >
               <UsersIcon className="h-5 w-5" />
               Community
@@ -167,10 +167,12 @@ export function Shop() {
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">Adidas</p>
                 <div className="mt-4 flex items-center justify-between">
                   <span className="text-lg font-semibold text-gray-900 dark:text-gray-50">$149.99</span>
-                  <Button className="flex items-center gap-2" size="sm" variant="outline">
+                  <Link href="/AR" passHref>
+                  <Button className="flex items-center gap-2" size="sm" variant="link">
                     <ArchiveIcon className="h-5 w-5" />
                     Try on
                   </Button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -204,10 +206,12 @@ export function Shop() {
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">Converse</p>
                 <div className="mt-4 flex items-center justify-between">
                   <span className="text-lg font-semibold text-gray-900 dark:text-gray-50">$59.99</span>
-                  <Button className="flex items-center gap-2" size="sm" variant="outline">
+                  <Link href="/AR" passHref>
+                  <Button className="flex items-center gap-2" size="sm" variant="link">
                     <ArchiveIcon className="h-5 w-5" />
                     Try on
                   </Button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -241,10 +245,12 @@ export function Shop() {
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">Vans</p>
                 <div className="mt-4 flex items-center justify-between">
                   <span className="text-lg font-semibold text-gray-900 dark:text-gray-50">$79.99</span>
-                  <Button className="flex items-center gap-2" size="sm" variant="outline">
+                  <Link href="/AR" passHref>
+                  <Button className="flex items-center gap-2" size="sm" variant="link">
                     <ArchiveIcon className="h-5 w-5" />
                     Try on
                   </Button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -278,10 +284,12 @@ export function Shop() {
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">Reebok</p>
                 <div className="mt-4 flex items-center justify-between">
                   <span className="text-lg font-semibold text-gray-900 dark:text-gray-50">$89.99</span>
-                  <Button className="flex items-center gap-2" size="sm" variant="outline">
+                  <Link href="/AR" passHref>
+                  <Button className="flex items-center gap-2" size="sm" variant="link">
                     <ArchiveIcon className="h-5 w-5" />
                     Try on
                   </Button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -315,10 +323,12 @@ export function Shop() {
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">Puma</p>
                 <div className="mt-4 flex items-center justify-between">
                   <span className="text-lg font-semibold text-gray-900 dark:text-gray-50">$69.99</span>
-                  <Button className="flex items-center gap-2" size="sm" variant="outline">
+                  <Link href="/AR" passHref>
+                  <Button className="flex items-center gap-2" size="sm" variant="link">
                     <ArchiveIcon className="h-5 w-5" />
                     Try on
                   </Button>
+                  </Link>
                 </div>
               </div>
             </div>
