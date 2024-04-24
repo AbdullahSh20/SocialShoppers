@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button"
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
 import Link from "next/link"
 import { DropdownMenuTrigger, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
-import { SheetTrigger, SheetClose, SheetContent, Sheet } from "@/components/ui/sheet"
 import { JSX, SVGProps } from "react"
 
 export function Community() {
@@ -60,6 +59,7 @@ export function Community() {
       </div>
     </div>
   </header>
+  <div className="container mx-auto h-12"> </div>
     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-6 py-12 md:py-16 lg:py-24">
       <div className="col-span-2 lg:col-span-1 grid gap-6">
         <Card>
@@ -410,83 +410,7 @@ export function Community() {
                   </div>
                 </div>
               </div>
-              <div className="grid gap-2">
-                <img
-                  alt="Community Look"
-                  className="aspect-square object-cover rounded-lg"
-                  height="200"
-                  src="/woman.jpg"
-                  width="200"
-                />
-                <div className="flex items-center gap-2">
-                  <Avatar>
-                    <AvatarImage alt="@shadcn" src="/woman.jpg" />
-                    <AvatarFallback>CN</AvatarFallback>
-                  </Avatar>
-                  <div>
-                    <h4 className="font-semibold">Jenna Smith</h4>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">@jennasmith</p>
-                  </div>
-                </div>
               </div>
-              <div className="grid gap-2">
-                <img
-                  alt="Community Look"
-                  className="aspect-square object-cover rounded-lg"
-                  height="200"
-                  src="/man.jpeg"
-                  width="200"
-                />
-                <div className="flex items-center gap-2">
-                  <Avatar>
-                    <AvatarImage alt="@shadcn" src="/man.jpeg" />
-                    <AvatarFallback>CN</AvatarFallback>
-                  </Avatar>
-                  <div>
-                    <h4 className="font-semibold">Alex Johnson</h4>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">@alexjohnson</p>
-                  </div>
-                </div>
-              </div>
-              <div className="grid gap-2">
-                <img
-                  alt="Community Look"
-                  className="aspect-square object-cover rounded-lg"
-                  height="200"
-                  src="/woman4.jpg"
-                  width="200"
-                />
-                <div className="flex items-center gap-2">
-                  <Avatar>
-                    <AvatarImage alt="@shadcn" src="/woman4.jpg" />
-                    <AvatarFallback>CN</AvatarFallback>
-                  </Avatar>
-                  <div>
-                    <h4 className="font-semibold">Emily Davis</h4>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">@emilydavis</p>
-                  </div>
-                </div>
-              </div>
-              <div className="grid gap-2">
-                <img
-                  alt="Community Look"
-                  className="aspect-square object-cover rounded-lg"
-                  height="200"
-                  src="/woman3.jpg"
-                  width="200"
-                />
-                <div className="flex items-center gap-2">
-                  <Avatar>
-                    <AvatarImage alt="@shadcn" src="/woman3.jpg" />
-                    <AvatarFallback>CN</AvatarFallback>
-                  </Avatar>
-                  <div>
-                    <h4 className="font-semibold">Michael Brown</h4>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">@michaelbrown</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </CardContent>
         </Card>
       </div>

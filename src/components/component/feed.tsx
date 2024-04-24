@@ -12,7 +12,7 @@ export function Feed() {
     <div className="w-full">
       <ScrollArea className="h-[600px]">
         <div className="grid gap-4">
-          <Card className="rounded-none shadow-none border-0 mx-auto w-full max-w-5xl">
+          <Card className="rounded-none shadow-none border-0 mx-auto w-full max-w-7xl">
             <CardHeader className="p-4 flex flex-row items-center">
               <Link className="flex items-center gap-2 text-sm font-semibold" href="#">
                 <Avatar className="w-8 h-8 border">
@@ -47,7 +47,9 @@ export function Feed() {
             <CardContent className="p-0">
               <img
                 alt="Image"
-                className="aspect-square object-cover max-w mx-auto"
+                className="aspect-square object-cover max-w mx-auto"                
+                height={400}
+                width={400}
                 src="/insta1.jpg"
               />
             </CardContent>
@@ -86,7 +88,7 @@ export function Feed() {
               </div>
             </CardFooter>
           </Card>
-          <Card className="rounded-none shadow-none border-0 mx-auto w-full max-w-5xl">
+          <Card className="rounded-none shadow-none border-0 mx-auto w-full max-w-7xl">
             <CardHeader className="p-4 flex flex-row items-center">
               <Link className="flex items-center gap-2 text-sm font-semibold" href="#">
                 <Avatar className="w-8 h-8 border">
@@ -121,7 +123,9 @@ export function Feed() {
             <CardContent className="p-0">
               <img
                 alt="Image"
-                className="aspect-video object-cover max-w mx-auto"
+                className="aspect-square object-cover max-w mx-auto"
+                height={400}
+                width={400}
                 src="/insta2.jpg"
               />
             </CardContent>
