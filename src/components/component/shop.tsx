@@ -8,14 +8,14 @@ export function Shop() {
     <div className="flex flex-col min-h-screen">
       <header className="bg-white shadow-sm dark:bg-gray-950 dark:border-b dark:border-gray-800 sticky top-0 z-20">
         <div className="container mx-auto px-4 md:px-6 flex items-center h-16">
-          <Link className="flex items-center gap-2" href="#">
+          <Link className="flex items-center gap-2" href="/">
             <ShoppingBagIcon className="h-6 w-6 text-gray-900 dark:text-gray-50" />
             <span className="font-semibold text-lg">SocialShoppers</span>
           </Link>
           <nav className="ml-auto flex items-center gap-4">
             <Link
               className="hidden md:inline-flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
-              href="#"
+              href="/"
             >
               <HomeIcon className="h-5 w-5" />
               Home
@@ -63,7 +63,7 @@ export function Shop() {
                 <div className="p-4 space-y-4">
                   <Link
                     className="flex items-center gap-3 px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
-                    href="#"
+                    href="/"
                   >
                     <HomeIcon className="h-5 w-5" />
                     Home
@@ -104,7 +104,7 @@ export function Shop() {
                   alt="Product Image"
                   className="w-full h-56 object-cover"
                   height={400}
-                  src="/placeholder.svg"
+                  src="/airforce.jpg"
                   style={{
                     aspectRatio: "400/400",
                     objectFit: "cover",
@@ -141,7 +141,7 @@ export function Shop() {
                   alt="Product Image"
                   className="w-full h-56 object-cover"
                   height={400}
-                  src="/placeholder.svg"
+                  src="/adidasair.png"
                   style={{
                     aspectRatio: "400/400",
                     objectFit: "cover",
@@ -178,7 +178,7 @@ export function Shop() {
                   alt="Product Image"
                   className="w-full h-56 object-cover"
                   height={400}
-                  src="/placeholder.svg"
+                  src="/converse.jpeg"
                   style={{
                     aspectRatio: "400/400",
                     objectFit: "cover",
@@ -215,7 +215,7 @@ export function Shop() {
                   alt="Product Image"
                   className="w-full h-56 object-cover"
                   height={400}
-                  src="/placeholder.svg"
+                  src="/puma.jpeg"
                   style={{
                     aspectRatio: "400/400",
                     objectFit: "cover",
@@ -252,7 +252,7 @@ export function Shop() {
                   alt="Product Image"
                   className="w-full h-56 object-cover"
                   height={400}
-                  src="/placeholder.svg"
+                  src="/pants.jpg"
                   style={{
                     aspectRatio: "400/400",
                     objectFit: "cover",
@@ -289,7 +289,7 @@ export function Shop() {
                   alt="Product Image"
                   className="w-full h-56 object-cover"
                   height={400}
-                  src="/placeholder.svg"
+                  src="/shorts.png"
                   style={{
                     aspectRatio: "400/400",
                     objectFit: "cover",

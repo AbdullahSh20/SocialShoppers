@@ -15,7 +15,7 @@ export function HomePage() {
     <div className="flex flex-col min-h-screen">
       <header className="bg-white shadow-sm dark:bg-gray-900">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link className="flex items-center gap-2 font-bold text-lg text-gray-900 dark:text-gray-50" href="#">
+          <Link className="flex items-center gap-2 font-bold text-lg text-gray-900 dark:text-gray-50" href="/">
             <ShoppingBagIcon className="h-6 w-6" />
             SocialShoppers
           </Link>
@@ -24,16 +24,16 @@ export function HomePage() {
             <span className="sr-only">Toggle navigation</span>
           </Button>
           <nav className="hidden lg:flex items-center gap-6">
-            <Link className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" href="#">
+            <Link className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" href="/shop">
               Explore
             </Link>
-            <Link className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" href="#">
+            <Link className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" href="shop">
               Categories
             </Link>
-            <Link className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" href="#">
+            <Link className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" href="/shop">
               Brands
             </Link>
-            <Link className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" href="#">
+            <Link className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50" href="/AR">
               AR Try-On
             </Link>
           </nav>
@@ -203,7 +203,7 @@ export function HomePage() {
                   alt="Hero Image"
                   className="rounded-lg object-cover w-full aspect-square"
                   height={600}
-                  src="/placeholder.svg"
+                  src="/countr-shopping-app.png"
                   width={600}
                 />
               </div>
@@ -221,56 +221,56 @@ export function HomePage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <Link
                 className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-                href="#"
+                href = '/shop'
               >
                 <ShirtIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
                 <span className="text-sm font-medium">Clothing</span>
               </Link>
               <Link
                 className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-                href="#"
+                href = '/shop'
               >
                 <ShirtIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
                 <span className="text-sm font-medium">Shoes</span>
               </Link>
               <Link
                 className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-                href="#"
+                href = '/shop'
               >
                 <ShoppingBagIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
                 <span className="text-sm font-medium">Bags</span>
               </Link>
               <Link
                 className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-                href="#"
+                href = '/shop'
               >
                 <PaintbrushIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
                 <span className="text-sm font-medium">Beauty</span>
               </Link>
               <Link
                 className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-                href="#"
+                href = '/shop'
               >
                 <WatchIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
                 <span className="text-sm font-medium">Accessories</span>
               </Link>
               <Link
                 className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-                href="#"
+                href = '/shop'
               >
                 <HomeIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
                 <span className="text-sm font-medium">Home</span>
               </Link>
               <Link
                 className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-                href="#"
+                href = '/shop'
               >
                 <CircuitBoardIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
                 <span className="text-sm font-medium">Electronics</span>
               </Link>
               <Link
                 className="flex flex-col items-center gap-3 p-4 rounded-lg bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-                href="#"
+                href = '/shop'
               >
                 <ClubIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
                 <span className="text-sm font-medium">Sports</span>
@@ -295,7 +295,7 @@ export function HomePage() {
                   alt="Brand Logo"
                   className="w-full h-auto object-contain"
                   height={60}
-                  src="/placeholder.svg"
+                  src="/zara.png"
                   style={{
                     aspectRatio: "120/60",
                     objectFit: "cover",
@@ -305,8 +305,26 @@ export function HomePage() {
               </Link>
               <Link
                 className="flex items-center justify-center p-4 rounded-lg bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-                href="#"
+                href="/shop"
+              >
+                <img
+                  alt="Brand Logo"
+                  className="w-full h-auto object-contain"
+                  height={60}
+                  src="/mavi.png"
+                  style={{
+                    aspectRatio: "120/60",
+                    objectFit: "cover",
+                  }}
+                  width={120}
+                />
+              </Link>
+              <Link
+                className="flex items-center justify-center p-4 rounded-lg bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+                href="/shop"
+                
               />
+              
             </div>
           </div>
         </section>
