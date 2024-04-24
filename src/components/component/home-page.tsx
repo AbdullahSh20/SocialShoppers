@@ -289,7 +289,7 @@ export function HomePage() {
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
               <Link
                 className="flex items-center justify-center p-4 rounded-lg bg-white dark:bg-gray-900 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-                href="#"
+                href="/shop"
               >
                 <img
                   alt="Brand Logo"

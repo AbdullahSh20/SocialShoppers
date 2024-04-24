@@ -99,7 +99,7 @@ export function Shop() {
         <section className="container mx-auto px-4 md:px-6 py-8 md:py-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-white rounded-lg shadow-sm dark:bg-gray-950 dark:border dark:border-gray-800 overflow-hidden">
-              <Link className="block" href="#">
+              <Link className="block" href="/shop">
                 <img
                   alt="Product Image"
                   className="w-full h-56 object-cover"
@@ -114,7 +114,7 @@ export function Shop() {
               </Link>
               <div className="p-4">
                 <div className="flex items-center justify-between">
-                  <Link className="text-sm font-medium text-gray-900 dark:text-gray-50 hover:underline" href="#">
+                  <Link className="text-sm font-medium text-gray-900 dark:text-gray-50 hover:underline" href="/shop">
                     Nike Air Force 1
                   </Link>
                   <div className="flex items-center gap-1 text-yellow-500">
@@ -138,7 +138,7 @@ export function Shop() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-sm dark:bg-gray-950 dark:border dark:border-gray-800 overflow-hidden">
-              <Link className="block" href="#">
+              <Link className="block" href="/shop">
                 <img
                   alt="Product Image"
                   className="w-full h-56 object-cover"
@@ -153,7 +153,7 @@ export function Shop() {
               </Link>
               <div className="p-4">
                 <div className="flex items-center justify-between">
-                  <Link className="text-sm font-medium text-gray-900 dark:text-gray-50 hover:underline" href="#">
+                  <Link className="text-sm font-medium text-gray-900 dark:text-gray-50 hover:underline" href="/shop">
                     Adidas Ultraboost
                   </Link>
                   <div className="flex items-center gap-1 text-yellow-500">
@@ -177,7 +177,7 @@ export function Shop() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-sm dark:bg-gray-950 dark:border dark:border-gray-800 overflow-hidden">
-              <Link className="block" href="#">
+              <Link className="block" href="/shop">
                 <img
                   alt="Product Image"
                   className="w-full h-56 object-cover"
@@ -192,7 +192,7 @@ export function Shop() {
               </Link>
               <div className="p-4">
                 <div className="flex items-center justify-between">
-                  <Link className="text-sm font-medium text-gray-900 dark:text-gray-50 hover:underline" href="#">
+                  <Link className="text-sm font-medium text-gray-900 dark:text-gray-50 hover:underline" href="/shop">
                     Converse Chuck Taylor
                   </Link>
                   <div className="flex items-center gap-1 text-yellow-500">
@@ -216,7 +216,7 @@ export function Shop() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-sm dark:bg-gray-950 dark:border dark:border-gray-800 overflow-hidden">
-              <Link className="block" href="#">
+              <Link className="block" href="/shop">
                 <img
                   alt="Product Image"
                   className="w-full h-56 object-cover"
@@ -231,7 +231,7 @@ export function Shop() {
               </Link>
               <div className="p-4">
                 <div className="flex items-center justify-between">
-                  <Link className="text-sm font-medium text-gray-900 dark:text-gray-50 hover:underline" href="#">
+                  <Link className="text-sm font-medium text-gray-900 dark:text-gray-50 hover:underline" href="/shop">
                     Vans Old Skool
                   </Link>
                   <div className="flex items-center gap-1 text-yellow-500">
@@ -255,7 +255,7 @@ export function Shop() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-sm dark:bg-gray-950 dark:border dark:border-gray-800 overflow-hidden">
-              <Link className="block" href="#">
+              <Link className="block" href="/shop">
                 <img
                   alt="Product Image"
                   className="w-full h-56 object-cover"
@@ -270,7 +270,7 @@ export function Shop() {
               </Link>
               <div className="p-4">
                 <div className="flex items-center justify-between">
-                  <Link className="text-sm font-medium text-gray-900 dark:text-gray-50 hover:underline" href="#">
+                  <Link className="text-sm font-medium text-gray-900 dark:text-gray-50 hover:underline" href="/shop">
                     Reebok Club C 85
                   </Link>
                   <div className="flex items-center gap-1 text-yellow-500">
@@ -294,7 +294,7 @@ export function Shop() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-sm dark:bg-gray-950 dark:border dark:border-gray-800 overflow-hidden">
-              <Link className="block" href="#">
+              <Link className="block" href="/shop">
                 <img
                   alt="Product Image"
                   className="w-full h-56 object-cover"
@@ -309,7 +309,7 @@ export function Shop() {
               </Link>
               <div className="p-4">
                 <div className="flex items-center justify-between">
-                  <Link className="text-sm font-medium text-gray-900 dark:text-gray-50 hover:underline" href="#">
+                  <Link className="text-sm font-medium text-gray-900 dark:text-gray-50 hover:underline" href="/shop">
                     Puma Suede Classic
                   </Link>
                   <div className="flex items-center gap-1 text-yellow-500">
