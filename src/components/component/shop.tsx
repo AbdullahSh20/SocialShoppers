@@ -128,10 +128,12 @@ export function Shop() {
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">Nike</p>
                 <div className="mt-4 flex items-center justify-between">
                   <span className="text-lg font-semibold text-gray-900 dark:text-gray-50">$99.99</span>
-                  <Button className="flex items-center gap-2" size="sm" variant="outline">
+                  <Link href="/AR" passHref>
+                  <Button className="flex items-center gap-2" size="sm" variant="link">
                     <ArchiveIcon className="h-5 w-5" />
                     Try on
                   </Button>
+                  </Link>
                 </div>
               </div>
             </div>

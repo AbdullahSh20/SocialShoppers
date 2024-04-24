@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
-import { Select } from "@/components/ui/select"
 import { Input } from "@/components/ui/input"
+import { JSX, SVGProps } from "react"
 
 export function AR() {
   return (
@@ -15,10 +15,10 @@ export function AR() {
           <div className="relative">
             <img
               alt="Frames"
-              className="aspect-square object-cover rounded-lg border border-gray-200 w-full dark:border-gray-800 dark:border-gray-800"
-              height={600}
-              src="/placeholder.svg"
-              width={600}
+              className="rounded-lg border"
+              height={400}
+              src="/AR.png"
+              width={800}
             />
             <div className="absolute inset-0 flex items-center justify-center bg-black/30 dark:bg-white/30">
               <VideoIcon className="h-12 w-12 text-white" />
@@ -77,7 +77,7 @@ export function AR() {
   )
 }
 
-function StarIcon(props) {
+function StarIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -96,8 +96,7 @@ function StarIcon(props) {
   )
 }
 
-
-function VideoIcon(props) {
+function VideoIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -116,3 +115,18 @@ function VideoIcon(props) {
     </svg>
   )
 }
+
+interface SelectProps extends React.SelectHTMLAttributes<HTMLSelectElement> {
+  className?: string;
+}
+
+export const Select: React.FC<SelectProps> = ({ className, ...props }) => {
+  return (
+    <select
+      className={`border p-2 rounded-md shadow-sm focus:outline-none focus:border-blue-500 text-gray-900 ${className}`}
+      {...props}
+    >
+      {props.children}
+    </select>
+  );
+};
